@@ -1,10 +1,27 @@
 ---
-title: "About this site"
-description: |
-  This is a website created by Teo Jun Peng and Yu Yiling for their IS415 Group Project -- Spatial Point Analysis.
+title: "About"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+# IS415 Project: Spatial Point Analysis
 
+By Group 8: Teo Jun Peng and Yu Yiling
+
+This project is done for IS415 Geospatial Analytics & Application (SMU-X), a module in Singapore Management University (SMU) with the guidance of Professor Kam Tin Seong.
+
+This project is a geospatial analytics project which will create an application to assist users with two methods of Spatial Point Analysis: Spatial Point Patterns Analysis and Network-Constrained Point Patterns Analysis.
+
+The links you want to check out:
+
+  1. [Project Web page](about.html)
+  
+  The web page contains everything about our project including our poster, user guide and research paper.
+  
+  2. Project R Shiny application
+  
+  The R Shiny application allows user to upload their own datasets and utilize our geospatial analysis of Spatial Point on their own datasets.
+
+
+
+
+  
+  

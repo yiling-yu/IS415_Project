@@ -86,26 +86,30 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Spatial Point Analysis: About</title>
+  <title>Spatial Point Analysis: Project Proposal</title>
 
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-10-10"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-10-10"/>
+  <meta name="article:author" content="Teo Jun Peng and Yu Yiling"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Spatial Point Analysis: About"/>
+  <meta property="og:title" content="Spatial Point Analysis: Project Proposal"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Spatial Point Analysis"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Spatial Point Analysis: About"/>
+  <meta property="twitter:title" content="Spatial Point Analysis: Project Proposal"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["About"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Project Proposal"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Teo Jun Peng and Yu Yiling"]},{"type":"character","attributes":{},"value":["Singapore Management Univeristy"]}]}]},{"type":"character","attributes":{},"value":["2021-10-10"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2050,7 +2054,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About","authors":[]}
+{"title":"Project Proposal","authors":[{"author":"Teo Jun Peng and Yu Yiling","authorURL":"#","affiliation":"Singapore Management Univeristy","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-10-10T00:00:00.000+08:00","citationText":"Yiling, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2075,27 +2079,230 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About</h1>
+<h1>Project Proposal</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
 </div>
 
+<div class="d-byline">
+  Teo Jun Peng and Yu Yiling  (Singapore Management Univeristy)
+  
+<br/>2021-10-10
+</div>
 
 <div class="d-article">
-<h1 id="is415-project-spatial-point-analysis">IS415 Project: Spatial Point Analysis</h1>
-<p>By Group 8: Teo Jun Peng and Yu Yiling</p>
-<p>This project is done for IS415 Geospatial Analytics &amp; Application (SMU-X), a module in Singapore Management University (SMU) with the guidance of Professor Kam Tin Seong.</p>
-<p>This project is a geospatial analytics project which will create an application to assist users with two methods of Spatial Point Analysis: Spatial Point Patterns Analysis and Network-Constrained Point Patterns Analysis.</p>
-<p>The links you want to check out:</p>
-<ol type="1">
-<li><a href="about.html">Project Web page</a></li>
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#theme">1. Theme:</a></li>
+<li><a href="#summary">2. Summary:</a></li>
+<li><a href="#problem-motivation">3. Problem &amp; Motivation</a></li>
+<li><a href="#project-objectives">4. Project Objectives</a></li>
+<li><a href="#main-features">5. Main Features</a></li>
+<li><a href="#data-sources">6. Data Sources</a></li>
+<li><a href="#approachmethodology">7. Approach/Methodology</a></li>
+<li><a href="#literature-review">8. Literature review</a>
+<ul>
+<li><a href="#a.-a-shiny-web-application-for-the-analysis-of-spatial-and-spatio-temporal-disease-data">a. <span>A Shiny web application for the analysis of spatial and spatio-temporal disease data</span></a></li>
+<li><a href="#b.-measuring-spatial-patterns-of-health-care-facilities-and-their-relationships-with-hypertension-inpatients-in-a-network-constrained-urban-system">b. <span>Measuring Spatial Patterns of Health Care Facilities and Their Relationships with Hypertension Inpatients in a Network-Constrained Urban System</span></a></li>
+<li><a href="#c.-spatial-point-pattern-analysis-of-human-settlements-and-geographical-associations-in-eastern-coastal-china-a-case-study">c. <span>Spatial Point Pattern Analysis of Human Settlements and Geographical Associations in Eastern Coastal China — A Case Study</span></a></li>
+</ul></li>
+<li><a href="#storyboard">9. Storyboard</a>
+<ul>
+<li><a href="#home-page">Home Page</a></li>
+<li><a href="#spatial-kde">Spatial KDE</a></li>
+<li><a href="#spatial-statistical-functions">Spatial Statistical Functions</a></li>
+<li><a href="#network-kde">Network KDE</a></li>
+<li><a href="#network-statistical-functions">Network Statistical Functions</a></li>
+<li><a href="#data">Data</a></li>
+</ul></li>
+<li><a href="#application-architecture">10. Application Architecture</a></li>
+<li><a href="#timeline">11. Timeline</a></li>
+</ul>
+</nav>
+</div>
+<h1 id="theme">1. Theme:</h1>
+<p><strong>Spatial Point Analysis</strong></p>
+<h1 id="summary">2. Summary:</h1>
+<p>To help bridge the gap between geospatial analysis and ease of use, Spatial Pointers is created to aid non-technical users with a specific type of geospatial analysis: Spatial Point Analysis.</p>
+<p>Our application will assist users with two methods of Spatial Point Analysis: Spatial Point Patterns Analysis and Network-Constrained Point Patterns Analysis. Spatial Point Patterns Analysis is helpful in finding out whether the input dataset point distribution resembles spatial randomness or regular/clustered pattern; or whether two input dataset point distributions are dependent on each other. Network-Constrained Point Patterns Analysis is helpful in finding out whether the distribution of spatial point events occurring on or alongside networks resembles spatial randomness or regular/clustered pattern.</p>
+<p>For each analysis, our application is able to provide users with kernel density maps of the input spatial point datasets and conduct various hypothesis tests to derive statistical conclusions on the distributions of datasets.</p>
+<p>To illustrate the functions of our application, we will input examples for the two types of analysis. For Spatial Point Patterns Analysis, we would like to uncover whether McDonald’s outlets in Singapore are distributed randomly and if not, what are the factors that affect the outlets’ location. For Network-Constrained Point Patterns Analysis, we would like to uncover whether the public toilets in Australia are distributed randomly along road networks and what are the factors that affect their locations.</p>
+<h1 id="problem-motivation">3. Problem &amp; Motivation</h1>
+<p>Countless data sources exist in the form of spatial data, with geographic elements such as the shape, size or location of the features. Such spatial data could be analysed to generate useful insights or drive insightful decisions such as <a href="https://www.esri.com/arcgis-blog/products/product/analytics/the-power-of-where-how-spatial-analysis-leads-to-insight/">planning locations of facilities</a> and <a href="https://link-springer-com.libproxy.smu.edu.sg/chapter/10.1007/978-1-4614-7618-4_7">understanding more about Ecology</a>.</p>
+<p>However, not many people are technically trained to do such spatial analysis. Additionally, the only way for them to improve their breadth and depth of knowledge pertaining to this area is limited to online resources. Without proper foundation, any analysis done could be highly inaccurate as well.</p>
+<p>Therefore, our main focus is to develop a web-based geospatial analytical tool dedicated to <strong>Spatial Point Analysis</strong>, with two methods available for use.</p>
+<p>Through this geospatial application, we hope to give pointers to and allow users to conduct Spatial Point Analysis for their selected data with ease, regardless of their technical background. Hence, the name Spatial Pointers is given for our application.</p>
+<h1 id="project-objectives">4. Project Objectives</h1>
+<p>In this project, we would like to create an analytical application that enables users to:</p>
+<ul>
+<li>Better understand the capabilities and use cases of Spatial Point Analysis</li>
+<li>Conduct Spatial Point Patterns Analysis (Kernel density estimation and G/F/Cross-L functions)</li>
+<li>Conduct Network-Constrained Point Patterns Analysis (Point density estimation and K/Cross-K functions)</li>
+<li>Use insights derived from the analysis for better decision making</li>
+</ul>
+<h1 id="main-features">5. Main Features</h1>
+<p>The main features of the analytical tools are:</p>
+<ol type="a">
+<li>Spatial Point Patterns Analysis</li>
 </ol>
-<p>The web page contains everything about our project including our poster, user guide and research paper.</p>
-<ol start="2" type="1">
-<li>Project R Shiny application</li>
+<ul>
+<li>Filters
+<ul>
+<li>Different Variables for Analysis</li>
+<li>Various Bandwidth Selection Methods</li>
+<li>Various Kernel Methods</li>
+<li>Various Statistical Functions</li>
+</ul></li>
+<li>Sliders
+<ul>
+<li>For Fixed Bandwidth Selection Method</li>
+<li>Number of Simulations</li>
+</ul></li>
+</ul>
+<ol start="2" type="a">
+<li>Network-Constrained Point Patterns Analysis</li>
 </ol>
-<p>The R Shiny application allows user to upload their own datasets and utilize our geospatial analysis of Spatial Point on their own datasets.</p>
+<ul>
+<li>Filters
+<ul>
+<li>Various Kernel Methods</li>
+<li>NKDE Calculation Methods</li>
+</ul></li>
+<li>Sliders
+<ul>
+<li>Number of Simulations</li>
+<li>Input Data Function</li>
+<li>Fixed Data Structure</li>
+<li>Graph Interpretation Function</li>
+<li>Helps Interpret Results</li>
+</ul></li>
+</ul>
+<h1 id="data-sources">6. Data Sources</h1>
+<p>The following datasets will be used as sample use cases:</p>
+<p><strong>Spatial Point Analysis</strong></p>
+<ul>
+<li><a href="https://www.mcdonalds.com.sg/locate-us/">McDonald’s in Singapore</a></li>
+<li><a href="https://data.gov.sg/dataset/gymssg">Gyms in Singapore</a></li>
+<li><a href="https://data.gov.sg/dataset/community-clubs">Community Clubs in Singapore</a></li>
+<li>Schools in Singapore (<a href="https://data.gov.sg/dataset/school-directory-and-information">primary school, secondary school, junior college</a>, <a href="https://www.moe.gov.sg/microsites/whats-next/for-gce-a-level-students/where-do-i-want-to-go/i-want-to-further-my-studies/publicly-funded-autonomous-universities/index.html">autonomous university</a>)</li>
+<li><a href="https://www.kfc.com.sg/Location/Search">KFCs in Singapore</a></li>
+</ul>
+<p><strong>Network-Constrained Point Patterns Analysis</strong></p>
+<ul>
+<li><a href="https://data.gov.au/data/dataset/national-public-toilet-map">National Public Toilet Map (Australia)</a></li>
+<li><a href="https://data.sa.gov.au/data/dataset/roads">Statewide Road Network (Australia)</a></li>
+<li><a href="https://data.sa.gov.au/data/dataset/rest-areas-state-maintained">Rest Areas - State Maintained (Australia)</a></li>
+<li><a href="https://data.gov.au/dataset/ds-ga-cc365600-2959-597d-e044-00144fdd4fa6/details?q=petrol%20stations">Petrol Stations (Australia)</a></li>
+<li><a href="https://data.sa.gov.au/data/dataset/?tags=parks">Parks (Australia)</a></li>
+</ul>
+<h1 id="approachmethodology">7. Approach/Methodology</h1>
+<ol type="a">
+<li>Data Preparation</li>
+</ol>
+<ul>
+<li>Assemble data from various sources</li>
+<li>Importing in data</li>
+<li>Data Wrangling</li>
+</ul>
+<ol start="2" type="a">
+<li>Exploratory Data Analysis (EDA)</li>
+</ol>
+<ul>
+<li>Examine distribution of data points</li>
+<li>Check for outliers and anomalies in data</li>
+<li>Data Wrangling (if necessary)</li>
+</ul>
+<ol start="3" type="a">
+<li>Spatial Point Analysis</li>
+</ol>
+<ul>
+<li>Spatial Point Patterns Analysis: First-order and Second-order analysis
+<ul>
+<li>Kernel Density Estimation: Visualise and explore the intensity of points</li>
+<li>G-Function and F-Function: Reveal whether points resemble clustered pattern, regular pattern or are distributed randomly</li>
+<li>Cross K-Function and Cross L-Function: Uncover whether target point locations are dependent on other points’ locations</li>
+</ul></li>
+<li>Network Constrained Spatial Point Patterns Analysis: First-order and Second-order analysis
+<ul>
+<li>Network Constrained Kernel Density Estimation: Estimate the average density of points along a network</li>
+<li>Second-Order Network Constrained K-Function (Network Constrained Ripley’s K-Function): Reveal whether point patterns are dispersed, clustered or randomly distributed</li>
+<li>Correlation in Multitype Point Patterns Using Network Constrained Cross K-Function: Uncover whether locations of point patterns are affected by another type of point patterns (e.g. Location of Airbnb listings affected by location of MRT stations)</li>
+</ul></li>
+</ul>
+<h1 id="literature-review">8. Literature review</h1>
+<h2 id="a.-a-shiny-web-application-for-the-analysis-of-spatial-and-spatio-temporal-disease-data">a. <a href="https://doi.org/10.1016/j.sste.2017.08.001">A Shiny web application for the analysis of spatial and spatio-temporal disease data</a></h2>
+<p><img src="images/LitReviewShiny.png" /></p>
+<ul>
+<li>Summary:
+<ul>
+<li>SpatialEpiApp is a Shiny web application that integrates two of the most common approaches in health surveillance: disease mapping and detection of clusters. SpatialEpiApp is created for ease of use and does not require any programming knowledge.</li>
+</ul></li>
+<li>Learning Points:
+<ul>
+<li>SpatialEpiApp has an “Inputs” page that allows users to upload their data and select their choice of analysis, drop down menu is provided for users to map the correct columns to the fixed data structure of the application</li>
+<li>There is a feature that allows users to download the results of their data analysis, which is good for users</li>
+</ul></li>
+<li>Linking back to our project:
+<ul>
+<li>We’ll set a proper data structure to ensure users are able to input their data correctly for analysis</li>
+<li>We could possibly create a “Download Report” feature for users too, but further research is necessary to do so, and after we’ll evaluate the feasibility of such a feature on our application</li>
+</ul></li>
+</ul>
+<h2 id="b.-measuring-spatial-patterns-of-health-care-facilities-and-their-relationships-with-hypertension-inpatients-in-a-network-constrained-urban-system">b. <a href="https://doi.org/10.3390/ijerph16173204">Measuring Spatial Patterns of Health Care Facilities and Their Relationships with Hypertension Inpatients in a Network-Constrained Urban System</a></h2>
+<p><img src="images/LitReviewNetwork.png" /></p>
+<ul>
+<li>Summary:
+<ul>
+<li>NetKDE was applied to detect health care service hot spots, and the network Cross K-function method was applied to measure various spatial clustering pattern relationships along the road network.</li>
+</ul></li>
+<li>Learning Points:
+<ul>
+<li>The study cited previous studies, which has indicated that the choice of the kernel function is less important than the choice of search bandwidth. Thus, various bandwidths were experimented before settling on a chosen value.</li>
+<li>Lesser data points may not necessarily mean weaker clustering relationships. Although the number of hospitals was relatively small compared to the other factors, the analysis showed that hospitals had the strongest clustering pattern relationship with hypertension inpatients along the road network.</li>
+</ul></li>
+<li>Linking back to our project:
+<ul>
+<li>We will provide users with various values of bandwidths so as to allow them to choose the appropriate one for their analysis</li>
+<li>There will be a feature that helps users to interpret the results of their statistical tests and functions</li>
+</ul></li>
+</ul>
+<h2 id="c.-spatial-point-pattern-analysis-of-human-settlements-and-geographical-associations-in-eastern-coastal-china-a-case-study">c. <a href="https://www.mdpi.com/1660-4601/11/3/2818/htm">Spatial Point Pattern Analysis of Human Settlements and Geographical Associations in Eastern Coastal China — A Case Study</a></h2>
+<ul>
+<li>Summary:
+<ul>
+<li>Ripley’s K function and Monte Carlo simulation were used to investigate human settlement point patterns in the Wen-Tai region of eastern coastal China.</li>
+<li>Remotely sensed tools and regression models were also employed to identify the effects of geographical determinants on the targeted settlement locations.</li>
+</ul></li>
+<li>Learning Points:
+<ul>
+<li>K function was used effectively to point out the relevant spatial patterns</li>
+<li>The study used regression models to analyse the determinants of the spatial point patterns, which is something our group could look at, but depending on how relevant it would be to our project focus</li>
+</ul></li>
+<li>Linking back to our project:
+<ul>
+<li>As a complementary to Ripley’s K function, we will also use K/L-cross function as well to analyse the determinants because it is specifically targeted for bivariate analysis</li>
+</ul></li>
+</ul>
+<h1 id="storyboard">9. Storyboard</h1>
+<h2 id="home-page">Home Page</h2>
+<p><img src="images/Storyboard/Homepage.jpg" /></p>
+<h2 id="spatial-kde">Spatial KDE</h2>
+<p><img src="images/Storyboard/Spatial%201.jpg" /></p>
+<h2 id="spatial-statistical-functions">Spatial Statistical Functions</h2>
+<p><img src="images/Storyboard/Spatial%202.jpg" /></p>
+<h2 id="network-kde">Network KDE</h2>
+<p><img src="images/Storyboard/Network%201.jpg" /></p>
+<h2 id="network-statistical-functions">Network Statistical Functions</h2>
+<p><img src="images/Storyboard/Network%202.jpg" /></p>
+<h2 id="data">Data</h2>
+<p><img src="images/Storyboard/Data.jpg" /></p>
+<h1 id="application-architecture">10. Application Architecture</h1>
+<p><img src="images/AppArchitecture.png" /></p>
+<h1 id="timeline">11. Timeline</h1>
+<p><img src="images/Timeline.JPG" /></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

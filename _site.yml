@@ -1,12 +1,13 @@
 name: "IS415_Project"
-title: "IS415_Project"
-description: |
-  IS415_Project
+title: "Spatial Point Analysis"
 output_dir: "_site"
 navbar:
+  logo:
+    image: images/AppLogo.png
+    href: index.html
   right:
-    - text: "Home"
-      href: index.html
     - text: "About"
       href: about.html
+    - text: "GitHub"
+      href: "https://github.com/yiling-yu/IS415_Project"
 output: distill::distill_article

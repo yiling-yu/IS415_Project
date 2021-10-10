@@ -2,19 +2,17 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "About",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-10-10T20:26:21+08:00"
+      "contents": "\r\nIS415 Project: Spatial Point Analysis\r\nBy Group 8: Teo Jun Peng and Yu Yiling\r\nThis project is done for IS415 Geospatial Analytics & Application (SMU-X), a module in Singapore Management University (SMU) with the guidance of Professor Kam Tin Seong.\r\nThis project is a geospatial analytics project which will create an application to assist users with two methods of Spatial Point Analysis: Spatial Point Patterns Analysis and Network-Constrained Point Patterns Analysis.\r\nThe links you want to check out:\r\nProject Web page\r\nThe web page contains everything about our project including our poster, user guide and research paper.\r\nProject R Shiny application\r\nThe R Shiny application allows user to upload their own datasets and utilize our geospatial analysis of Spatial Point on their own datasets.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-10-10T21:37:30+08:00"
     },
     {
       "path": "index.html",
       "title": "Spatial Pointers",
-      "description": "This is a website created by Teo Jun Peng and Yu Yiling for their IS415 Group Project -- Spatial Point Analysis.\n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-10-10T20:31:33+08:00"
+      "contents": "\r\nProject proposal\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-10-10T21:50:11+08:00"
     }
   ],
   "collections": []
