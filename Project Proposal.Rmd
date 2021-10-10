@@ -10,11 +10,9 @@ output:
     toc_depth: 2
 ---
 
-# 1. Theme: 
-**Spatial Point Analysis**
+# 1. Theme: **Spatial Point Analysis**
 
-# 2. Summary:
-
+# 2. Summary
 To help bridge the gap between geospatial analysis and ease of use, Spatial Pointers is created to aid non-technical users with a specific type of geospatial analysis: Spatial Point Analysis. 
 
 Our application will assist users with two methods of Spatial Point Analysis: Spatial Point Patterns Analysis and Network-Constrained Point Patterns Analysis. Spatial Point Patterns Analysis is helpful in finding out whether the input dataset point distribution resembles spatial randomness or regular/clustered pattern; or whether two input dataset point distributions are dependent on each other. Network-Constrained Point Patterns Analysis is helpful in finding out whether the distribution of spatial point events occurring on or alongside networks resembles spatial randomness or regular/clustered pattern. 
@@ -24,7 +22,6 @@ For each analysis, our application is able to provide users with kernel density 
 To illustrate the functions of our application, we will input examples for the two types of analysis. For Spatial Point Patterns Analysis, we would like to uncover whether McDonald's outlets in Singapore are distributed randomly and if not, what are the factors that affect the outlets’ location. For Network-Constrained Point Patterns Analysis, we would like to uncover whether the public toilets in Australia are distributed randomly along road networks and what are the factors that affect their locations.  
 
 # 3. Problem & Motivation
-
 Countless data sources exist in the form of spatial data, with geographic elements such as the shape, size or location of the features. Such spatial data could be analysed to generate useful insights or drive insightful decisions such as [planning locations of facilities](https://www.esri.com/arcgis-blog/products/product/analytics/the-power-of-where-how-spatial-analysis-leads-to-insight/) and [understanding more about Ecology](https://link-springer-com.libproxy.smu.edu.sg/chapter/10.1007/978-1-4614-7618-4_7). 
 
 However, not many people are technically trained to do such spatial analysis. Additionally, the only way for them to improve their breadth and depth of knowledge pertaining to this area is limited to online resources. Without proper foundation, any analysis done could be highly inaccurate as well.  
@@ -42,10 +39,10 @@ In this project, we would like to create an analytical application that enables 
 * Use insights derived from the analysis for better decision making
 
 # 5. Main Features
-
 The main features of the analytical tools are:
 
-a. Spatial Point Patterns Analysis
+**a. Spatial Point Patterns Analysis**
+
   * Filters
     + Different Variables for Analysis
     + Various Bandwidth Selection Methods
@@ -54,7 +51,9 @@ a. Spatial Point Patterns Analysis
   * Sliders
     + For Fixed Bandwidth Selection Method
     + Number of Simulations
-b. Network-Constrained Point Patterns Analysis
+    
+**b. Network-Constrained Point Patterns Analysis**
+
   * Filters
     + Various Kernel Methods
     + NKDE Calculation Methods
@@ -85,15 +84,21 @@ The following datasets will be used as sample use cases:
 * [Parks (Australia)](https://data.sa.gov.au/data/dataset/?tags=parks)
 
 # 7. Approach/Methodology
-a. Data Preparation
+
+**a. Data Preparation**
+
   + Assemble data from various sources
   + Importing in data
   + Data Wrangling
-b. Exploratory Data Analysis (EDA)
+  
+**b. Exploratory Data Analysis (EDA)**
+
   + Examine distribution of data points
   + Check for outliers and anomalies in data
   + Data Wrangling (if necessary) 
-c. Spatial Point Analysis
+  
+**c. Spatial Point Analysis**
+
   * Spatial Point Patterns Analysis:  First-order and Second-order analysis
     + Kernel Density Estimation: Visualise and explore the intensity of points
     + G-Function and F-Function: Reveal whether points resemble clustered pattern, regular pattern or are distributed randomly
@@ -131,6 +136,8 @@ c. Spatial Point Analysis
   + There will be a feature that helps users to interpret the results of their statistical tests and functions
 
 ## c. [Spatial Point Pattern Analysis of Human Settlements and Geographical Associations in Eastern Coastal China — A Case Study](https://www.mdpi.com/1660-4601/11/3/2818/htm)
+
+![](images/LitReviewPoint.JPG)
 
 * Summary:
   + Ripley’s K function and Monte Carlo simulation were used to investigate human  settlement  point  patterns in the Wen-Tai region of eastern coastal China.
