@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-10-10T20:26:21+08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Spatial Pointers",
+      "description": "This is a website created by Teo Jun Peng and Yu Yiling for their IS415 Group Project -- Spatial Point Analysis.\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-10-10T20:31:33+08:00"
+    }
+  ],
+  "collections": []
+}

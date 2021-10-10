@@ -1,0 +1,10 @@
+---
+title: "About this site"
+description: |
+  This is a website created by Teo Jun Peng and Yu Yiling for their IS415 Group Project -- Spatial Point Analysis.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
