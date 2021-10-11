@@ -4,7 +4,7 @@ title: "About"
 
 # IS415 Project: Spatial Point Analysis
 
-By Group 8: Teo Jun Peng and Yu Yiling
+By Group 8: [Teo Jun Peng](https://www.linkedin.com/in/jun-peng-teo/) and [Yu Yiling](https://www.linkedin.com/in/yiling-yu/)
 
 This project is done for IS415 Geospatial Analytics & Application (SMU-X), a module in Singapore Management University (SMU) with the guidance of Professor Kam Tin Seong.
 

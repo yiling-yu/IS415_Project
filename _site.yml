@@ -1,5 +1,6 @@
 name: "IS415_Project"
 title: "Spatial Point Analysis"
+theme: increase_logo.css
 output_dir: "_site"
 navbar:
   logo:
@@ -11,3 +12,9 @@ navbar:
     - text: "GitHub"
       href: "https://github.com/yiling-yu/IS415_Project"
 output: distill::distill_article
+
+
+
+
+
+
