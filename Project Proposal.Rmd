@@ -15,7 +15,7 @@ Our application will assist users with two methods of Spatial Point Analysis: Sp
 
 For each analysis, our application is able to provide users with kernel density maps of the input spatial point datasets and conduct various hypothesis tests to derive statistical conclusions on the distributions of datasets.
 
-To illustrate the functions of our application, we will input examples for the two types of analysis. For Spatial Point Patterns Analysis, we would like to uncover whether McDonald's outlets in Singapore are distributed randomly and if not, what are the factors that affect the outlets’ location. For Network-Constrained Point Patterns Analysis, we would like to uncover whether the public toilets in Australia are distributed randomly along road networks and what are the factors that affect their locations.  
+To illustrate the functions of our application, we will input examples for the two types of analysis. For Spatial Point Patterns Analysis, we would like to uncover whether McDonald’s outlets in Singapore are distributed randomly and if not, what are the factors that affect the outlets’ location. For Network-Constrained Point Patterns Analysis, we would like to uncover whether the drinking fountains in Melbourne, Australia are distributed randomly along the cycling network and if not, what are the factors that affect their locations. 
 
 # 3. Problem & Motivation
 Countless data sources exist in the form of spatial data, with geographic elements such as the shape, size or location of the features. Such spatial data could be analysed to generate useful insights or drive insightful decisions such as [planning locations of facilities](https://www.esri.com/arcgis-blog/products/product/analytics/the-power-of-where-how-spatial-analysis-leads-to-insight/) and [understanding more about Ecology](https://ecologicalprocesses.springeropen.com/articles/10.1186/s13717-021-00314-4). 
@@ -73,11 +73,10 @@ The following datasets will be used as sample use cases:
 
 **Network-Constrained Point Patterns Analysis**
 
-* [National Public Toilet Map (Australia)](https://data.gov.au/data/dataset/national-public-toilet-map)
-* [Statewide Road Network (Australia)](https://data.sa.gov.au/data/dataset/roads)
-* [Rest Areas - State Maintained (Australia)](https://data.sa.gov.au/data/dataset/rest-areas-state-maintained)
-* [Petrol Stations (Australia)](https://data.gov.au/dataset/ds-ga-cc365600-2959-597d-e044-00144fdd4fa6/details?q=petrol%20stations)
-* [Parks (Australia)](https://data.sa.gov.au/data/dataset/?tags=parks)
+* [Drinking Fountains (Melbourne, Australia)](https://data.melbourne.vic.gov.au/City-Council/Drinking-fountains/h4ih-tzqs)
+* [Public Toilets (Melbourne, Australia)](https://data.melbourne.vic.gov.au/City-Council/Public-toilets/ru3z-44we)
+* [Green Spaces (Melbourne, Australia)](https://data.melbourne.vic.gov.au/People/Landmarks-and-places-of-interest-including-schools/j5vt-ppat)
+* [Sports Facilities (Melbourne, Australia)](https://data.melbourne.vic.gov.au/People/Landmarks-and-places-of-interest-including-schools/j5vt-ppat)
 
 # 7. Approach/Methodology
 
