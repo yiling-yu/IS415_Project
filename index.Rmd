@@ -3,5 +3,5 @@ title: "Spatial Pointers"
 site: distill::distill_website
 ---
 
-# 1. [Project proposal](Project-Proposal.html)
+# 1. [Overview](Project-Proposal.html)
 
