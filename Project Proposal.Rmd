@@ -6,12 +6,12 @@ output:
     toc_depth: 2
 ---
 
-# 1. Theme: **Spatial Point Analysis**
+# 1. Theme: **Point Patterns Analysis**
 
 # 2. Abstract
-To help bridge the gap between geospatial analysis and ease of use, Spatial Pointers is created to aid non-technical users with a specific type of geospatial analysis: Spatial Point Analysis. 
+To help bridge the gap between geospatial analysis and ease of use, Spatial Pointers is created to aid non-technical users with a specific type of geospatial analysis: Point Patterns Analysis. 
 
-Our application will assist users with two methods of Spatial Point Analysis: Spatial Point Patterns Analysis and Network-Constrained Point Patterns Analysis. Spatial Point Patterns Analysis is helpful in finding out whether the input dataset point distribution resembles spatial randomness or regular/clustered pattern; or whether two input dataset point distributions are dependent on each other. Network-Constrained Point Patterns Analysis is helpful in finding out whether the distribution of spatial point events occurring on or alongside networks resembles spatial randomness or regular/clustered pattern. 
+Our application will assist users with two kinds of Point Patterns Analysis: Spatial Point Patterns Analysis and Network-Constrained Point Patterns Analysis. Spatial Point Patterns Analysis is helpful in finding out whether the input dataset point distribution resembles spatial randomness or regular/clustered pattern; or whether two input dataset point distributions are dependent on each other. Network-Constrained Point Patterns Analysis is helpful in finding out whether the distribution of spatial point events occurring on or alongside networks resembles spatial randomness or regular/clustered pattern. 
 
 For each analysis, our application is able to provide users with kernel density maps of the input spatial point datasets and conduct various hypothesis tests to derive statistical conclusions on the distributions of datasets.
 
@@ -22,14 +22,14 @@ Countless data sources exist in the form of spatial data, with geographic elemen
 
 However, not many people are technically trained to do such spatial analysis. Additionally, the only way for them to improve their breadth and depth of knowledge pertaining to this area is limited to online resources. Without proper foundation, any analysis done could be highly inaccurate as well.  
 
-Therefore, our main focus is to develop a web-based geospatial analytical tool dedicated to **Spatial Point Analysis**, with two methods available for use.
+Therefore, our main focus is to develop a web-based geospatial analytical tool dedicated to **Point Patterns Analysis**, with two methods available for use.
 
-Through this geospatial application, we hope to give pointers to and allow users to conduct Spatial Point Analysis for their selected data with ease, regardless of their technical background. Hence, the name Spatial Pointers is given for our application. 
+Through this geospatial application, we hope to give pointers to and allow users to conduct Point Patterns Analysis for their selected data with ease, regardless of their technical background. Hence, the name Spatial Pointers is given for our application. 
 
 # 4. Project Objectives
 In this project, we would like to create an analytical application that enables users to:
 
-* Better understand the capabilities and use cases of Spatial Point Analysis
+* Better understand the capabilities and use cases of Point Patterns Analysis
 * Conduct Spatial Point Patterns Analysis (Kernel density estimation and G/F/Cross-L functions)
 * Conduct Network-Constrained Point Patterns Analysis (Point density estimation and K/Cross-K functions)
 * Use insights derived from the analysis for better decision making
@@ -63,7 +63,7 @@ The main features of the analytical tools are:
 # 6. Data Sources
 The following datasets will be used as sample use cases:
 
-**Spatial Point Analysis**
+**Spatial Point Patterns Analysis**
 
 * [McDonald's in Singapore](https://www.mcdonalds.com.sg/locate-us/)
 * [Gyms in Singapore](https://data.gov.sg/dataset/gymssg)
@@ -93,7 +93,7 @@ The following datasets will be used as sample use cases:
   + Check for outliers and anomalies in data
   + Data Wrangling (if necessary) 
   
-**c. Spatial Point Analysis**
+**c. Point Patterns Analysis**
 
   * Spatial Point Patterns Analysis:  First-order and Second-order analysis
     + Kernel Density Estimation: Visualise and explore the intensity of points

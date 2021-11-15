@@ -2,13 +2,13 @@
 title: "About"
 ---
 
-# IS415 Project: Spatial Point Analysis
+# IS415 Project: Point Patterns Analysis
 
 By Group 8: [Teo Jun Peng](https://www.linkedin.com/in/jun-peng-teo/) and [Yu Yiling](https://www.linkedin.com/in/yiling-yu/)
 
 This project is done for IS415 Geospatial Analytics & Application (SMU-X), a module in Singapore Management University (SMU) with the guidance of Professor Kam Tin Seong.
 
-This project is a geospatial analytics project which will create an application to assist users with two methods of Spatial Point Analysis: Spatial Point Patterns Analysis and Network-Constrained Point Patterns Analysis.
+This project is a geospatial analytics project which will create an application to assist users with two kinds of Point Patterns Analysis: Spatial Point Patterns Analysis and Network-Constrained Point Patterns Analysis.
 
 The links you want to check out:
 
