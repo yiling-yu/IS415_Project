@@ -1,5 +1,5 @@
 name: "IS415_Project"
-title: "Spatial Point Analysis"
+title: "Point Patterns Analysis"
 theme: increase_logo.css
 output_dir: "_site"
 navbar:
