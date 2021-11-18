@@ -86,20 +86,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Point Patterns Analysis: Overview</title>
+  <title>Point Pattern Analysis: Overview</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Point Patterns Analysis: Overview"/>
+  <meta property="og:title" content="Point Pattern Analysis: Overview"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Point Patterns Analysis"/>
+  <meta property="og:site_name" content="Point Pattern Analysis"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Point Patterns Analysis: Overview"/>
+  <meta property="twitter:title" content="Point Pattern Analysis: Overview"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
@@ -2119,8 +2119,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /* Optional: embed custom fonts here with `@import`          */
   /* This must remain at the top of this file.                 */
-
-
+  @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300, 300i&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
 
   html {
     /*-- Main font sizes --*/
@@ -2130,23 +2131,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-size:      12px;
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
+    --title-color:     #ca225e;
+    --header-color:    #ca225e;                    /* edited */
+    --body-color:      #404040;                    /* edited */
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
+    --heading-font:    "Noto Serif JP", sans-serif; /* edited */
+    --mono-font:       "IBM Plex Mono", monospace;  /* edited */
+    --body-font:       "Lato", sans-serif;          /* edited */
+    --navbar-font:     "Lato", sans-serif;          /* edited */
   }
 
   /*-- ARTICLE METADATA --*/
   d-byline {
-    --heading-size:    0.6rem;
+    --heading-size:    0.9rem;                      /* edited */
     --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
+    --body-size:       0.95rem;                     /* edited */
     --body-color:      rgba(0, 0, 0, 0.8);
   }
 
@@ -2159,9 +2160,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- ARTICLE APPENDIX --*/
   d-appendix {
     --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
+    --heading-color:   rgba(0, 0, 0, 0.65);      
+    --text-size:       0.9rem;                    /* edited */
+    --text-color:      #1a162d;                   /* edited */
   }
 
   /*-- WEBSITE HEADER + FOOTER --*/
@@ -2169,17 +2170,53 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .distill-site-header {
     --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-color:       #1f1f1f;                   /* edited */
     --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
+    --hover-color:      #787878;                   /* edited */
+    --bkgd-color:       #fff;                      /* edited */
   }
 
   .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-color:       #7e7b88;                   /* edited */
     --text-size:        15px;
     --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
+    --bkgd-color:       #ca225e3d;                 /* edited */
+  }
+
+  /*-- Additional custom styles --*/
+
+  ul > li::marker {
+    color: #ca225e;
+  }
+
+  .distill-site-header { 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+
+  .distill-site-header .logo img{
+    max-height: 40px; /* Makes logo bigger, default was 20px */
+  }
+
+  .distill-site-header {
+    padding-top: 1rem;
+  }
+
+  d-title h1,
+  d-article h2,
+  .posts-list .description h2,
+  .posts-list > h1 {
+      font-weight: 300;
+  }
+
+  d-appendix {
+    background-color: #fdf7f9;
+    border-top: none;
   }
 
   /*-- Additional custom styles --*/
@@ -2397,7 +2434,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a class="logo" href="index.html">
 <img src="images/AppLogo.png" alt="Logo"/>
 </a>
-<a href="index.html" class="title">Point Patterns Analysis</a>
+<a href="index.html" class="title">Point Pattern Analysis</a>
 </div>
 <div class="nav-right">
 <a href="about.html">About</a>
@@ -2423,7 +2460,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#theme-point-patterns-analysis">1. Theme: <strong>Point Patterns Analysis</strong></a></li>
+<li><a href="#theme-point-pattern-analysis">1. Theme: <strong>Point Pattern Analysis</strong></a></li>
 <li><a href="#abstract">2. Abstract</a></li>
 <li><a href="#problem-motivation">3. Problem &amp; Motivation</a></li>
 <li><a href="#project-objectives">4. Project Objectives</a></li>
@@ -2450,21 +2487,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </ul>
 </nav>
 </div>
-<h1 id="theme-point-patterns-analysis">1. Theme: <strong>Point Patterns Analysis</strong></h1>
+<h1 id="theme-point-pattern-analysis">1. Theme: <strong>Point Pattern Analysis</strong></h1>
 <h1 id="abstract">2. Abstract</h1>
-<p>To help bridge the gap between geospatial analysis and ease of use, Spatial Pointers is created to aid non-technical users with a specific type of geospatial analysis: Point Patterns Analysis.</p>
-<p>Our application will assist users with two kinds of Point Patterns Analysis: Spatial Point Patterns Analysis and Network-Constrained Point Patterns Analysis. Spatial Point Patterns Analysis is helpful in finding out whether the input dataset point distribution resembles spatial randomness or regular/clustered pattern; or whether two input dataset point distributions are dependent on each other. Network-Constrained Point Patterns Analysis is helpful in finding out whether the distribution of spatial point events occurring on or alongside networks resembles spatial randomness or regular/clustered pattern.</p>
+<p>To help bridge the gap between geospatial analysis and ease of use, Spatial Pointers is created to aid non-technical users with a specific type of geospatial analysis: Point Pattern Analysis.</p>
+<p>Our application will assist users with two kinds of Point Pattern Analysis: Spatial Point Patterns Analysis and Network-Constrained Point Patterns Analysis. Spatial Point Patterns Analysis is helpful in finding out whether the input dataset point distribution resembles spatial randomness or regular/clustered pattern; or whether two input dataset point distributions are dependent on each other. Network-Constrained Point Patterns Analysis is helpful in finding out whether the distribution of spatial point events occurring on or alongside networks resembles spatial randomness or regular/clustered pattern.</p>
 <p>For each analysis, our application is able to provide users with kernel density maps of the input spatial point datasets and conduct various hypothesis tests to derive statistical conclusions on the distributions of datasets.</p>
 <p>To illustrate the functions of our application, we will input examples for the two types of analysis. For Spatial Point Patterns Analysis, we would like to uncover whether McDonald’s outlets in Singapore are distributed randomly and if not, what are the factors that affect the outlets’ location. For Network-Constrained Point Patterns Analysis, we would like to uncover whether the Childcare Centres in Punggol, Singapore are distributed randomly along the road network and if not, what are the factors that affect their locations.</p>
 <h1 id="problem-motivation">3. Problem &amp; Motivation</h1>
 <p>Countless data sources exist in the form of spatial data, with geographic elements such as the shape, size or location of the features. Such spatial data could be analysed to generate useful insights or drive insightful decisions such as <a href="https://www.esri.com/arcgis-blog/products/product/analytics/the-power-of-where-how-spatial-analysis-leads-to-insight/">planning locations of facilities</a> and <a href="https://ecologicalprocesses.springeropen.com/articles/10.1186/s13717-021-00314-4">understanding more about Ecology</a>.</p>
 <p>However, not many people are technically trained to do such spatial analysis. Additionally, the only way for them to improve their breadth and depth of knowledge pertaining to this area is limited to online resources. Without proper foundation, any analysis done could be highly inaccurate as well.</p>
-<p>Therefore, our main focus is to develop a web-based geospatial analytical tool dedicated to <strong>Point Patterns Analysis</strong>, with two methods available for use.</p>
-<p>Through this geospatial application, we hope to give pointers to and allow users to conduct Point Patterns Analysis for their selected data with ease, regardless of their technical background. Hence, the name Spatial Pointers is given for our application.</p>
+<p>Therefore, our main focus is to develop a web-based geospatial analytical tool dedicated to <strong>Point Pattern Analysis</strong>, with two methods available for use.</p>
+<p>Through this geospatial application, we hope to give pointers to and allow users to conduct Point Pattern Analysis for their selected data with ease, regardless of their technical background. Hence, the name Spatial Pointers is given for our application.</p>
 <h1 id="project-objectives">4. Project Objectives</h1>
 <p>In this project, we would like to create an analytical application that enables users to:</p>
 <ul>
-<li>Better understand the capabilities and use cases of Point Patterns Analysis</li>
+<li>Better understand the capabilities and use cases of Point Pattern Analysis</li>
 <li>Conduct Spatial Point Patterns Analysis (Kernel density estimation and G/F/Cross-L functions)</li>
 <li>Conduct Network-Constrained Point Patterns Analysis (Point density estimation and K/Cross-K functions)</li>
 <li>Use insights derived from the analysis for better decision making</li>
@@ -2533,7 +2570,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li>Check for outliers and anomalies in data</li>
 <li>Data Wrangling (if necessary)</li>
 </ul>
-<p><strong>c. Point Patterns Analysis</strong></p>
+<p><strong>c. Point Pattern Analysis</strong></p>
 <ul>
 <li>Spatial Point Patterns Analysis: First-order and Second-order analysis
 <ul>
