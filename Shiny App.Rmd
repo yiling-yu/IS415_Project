@@ -8,5 +8,6 @@ In our application, you will be able to perform two methods of Point Pattern Ana
 
 Try out our application [here](https://yiling-yu.shinyapps.io/is415_project_shiny_app/)!🥰
 
+User guide of the application is [here](https://github.com/yiling-yu/IS415_Project/blob/master/User%20Guide.pdf)!
 
 

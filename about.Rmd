@@ -16,9 +16,10 @@ The links you want to check out:
   
   The web page contains everything about our project including our poster, user guide and research paper.
   
-  2. Project R Shiny application
+  2. [Project R Shiny application](https://yiling-yu.shinyapps.io/is415_project_shiny_app/)
   
-  The R Shiny application allows user to upload their own datasets and utilize our geospatial analysis of Spatial Point on their own datasets.
+  The R Shiny application allows users to perform two methods of Point Pattern Analysis: SPPA and NetSPPA. 
+  Check our user guide [here](https://github.com/yiling-yu/IS415_Project/blob/master/User%20Guide.pdf)~
 
 
 
