@@ -1,0 +1,14 @@
+---
+title: "Poster"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+![](images/Poster.png)
+
+Also, our poster can be downloaded through this [link](https://github.com/yiling-yu/IS415_Project/blob/master/SpatialPointers_Poster_Final.pdf) in PDF format~ 📜
+
+
+
+
+

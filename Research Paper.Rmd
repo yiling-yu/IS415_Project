@@ -1,0 +1,10 @@
+---
+title: "Research Paper"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+Our research paper can be found through this [link](https://github.com/yiling-yu/IS415_Project/blob/master/Research%20Paper.pdf). 📜
+
+
+

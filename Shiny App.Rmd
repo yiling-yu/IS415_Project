@@ -1,0 +1,12 @@
+---
+title: "Shiny App"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+In our application, you will be able to perform two methods of Point Pattern Analysis: SPPA and NetSPPA. 
+
+Try out our application [here](https://yiling-yu.shinyapps.io/is415_project_shiny_app/)!🥰
+
+
+

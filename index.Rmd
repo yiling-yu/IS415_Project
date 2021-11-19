@@ -3,5 +3,8 @@ title: "Spatial Pointers"
 site: distill::distill_website
 ---
 
-# 1. [Overview](Project-Proposal.html)
+### [Overview](Project-Proposal.html)
+### [Research Paper](Research-Paper.html)
+### [Shiny App](Shiny-App.html)
+### [Poster](Poster.html)
 
