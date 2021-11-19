@@ -68,7 +68,7 @@ The following datasets will be used as sample use cases:
 * [McDonald's in Singapore](https://www.mcdonalds.com.sg/locate-us/)
 * [Gyms in Singapore](https://data.gov.sg/dataset/gymssg)
 * [Community Clubs in Singapore](https://data.gov.sg/dataset/community-clubs)
-* Schools in Singapore ([primary school, secondary school, junior college](https://data.gov.sg/dataset/school-directory-and-information), [autonomous university](https://www.moe.gov.sg/microsites/whats-next/for-gce-a-level-students/where-do-i-want-to-go/i-want-to-further-my-studies/publicly-funded-autonomous-universities/index.html))
+* [MRT Stations in Singapore](https://data.gov.sg/dataset/master-plan-2019-rail-station-layer)
 * [KFCs in Singapore](https://www.kfc.com.sg/Location/Search)
 
 **Network-Constrained Point Patterns Analysis**
